@@ -145,6 +145,13 @@ if(locksize == 7 && num_counter>=1){
     pass_security = "Weak";
     
 }
+    
+if(locksize<7){
+
+    pass_security = "Password Not Safe";
+
+    
+}
 
 //Output Display
 cout << endl << "Password Information: " << endl << endl;
